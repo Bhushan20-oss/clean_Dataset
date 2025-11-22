@@ -1,0 +1,16 @@
+[project]
+name = "ml"
+version = "0.1.0"
+description = "Vaani Konkani ASR Dataset Preparation Pipeline"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "datasets>=4.4.1",
+    "numpy>=2.3.4",
+    "polars>=1.35.2",
+    "pyarrow>=19.1.0",
+    "ray>=2.52.0",
+    "soundfile>=0.13.1",
+    "torch>=2.9.1",
+    "librosa>=0.10.2",
+]
